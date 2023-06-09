@@ -1,0 +1,268 @@
+html{
+	background-image: linear-gradient(#FC5E55, #FA4083); 
+}
+
+body{
+	background-image: url("image/image-lion-background.png");
+	background-position: top center;
+	background-repeat: no-repeat;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 1rem;
+	font-weight: 300;
+	
+}
+
+.container{
+	width: 1024px;
+	min-height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 3rem;
+}
+ 
+
+header{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #EBEBEB;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Playfair Display', serif;
+}
+
+.navbutton{
+	font-size: 1rem;
+	font-weight: 600;
+	text-decoration: none;
+	padding: 11px 23px;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+}
+
+
+.navbutton:hover{
+	border-bottom: #ffffff medium;
+	border-style:solid;
+}
+
+.navbutton:hover .dropdown-box{
+	display: block;
+	
+}
+
+.dropdown-box{
+	display:none;
+	position: absolute;
+	z-index: 1;
+	padding-top: 20px;
+	margin-left: -28px;
+	width: 100px;
+	
+}
+
+.dropdown-box a {
+	color: Black;
+}
+
+.dropdown-box a:hover {
+	color: white;
+}
+
+.navbutton1{
+	font-size: 1rem;
+	font-weight: 600;
+	text-decoration: none;
+	padding: 11px 23px;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+}
+
+
+ .dropdown-box .navbutton1{
+	width: 9rem;
+	 background-color: white;
+} 
+
+.dropdown-box .navbutton1:hover{
+	background-color: #FC5E55;
+}
+
+main{
+	min-height: 300px;
+	display: flex;
+	align-items: center;
+}
+
+.main2{
+	min-height: 300px;
+	padding-top: 50px
+}
+
+.cards{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	
+}
+
+.card1, .card2, .card3 {
+	padding: 2rem 2rem 1.5rem 2rem;
+	box-sizing: border-box;
+	border-radius: 1rem;
+	
+}
+
+.card1{
+	background-image: url("image/image-background-card1.jpg");
+	background-size: cover;
+	background-position: bottom;
+	margin-top: 3rem;
+	min-height: 250px;
+	width:30%;
+ 
+}
+
+.card2{
+	background-image: url("image/image-background-card2.jpg");
+	background-size: cover;
+	background-position: bottom;
+	margin-top: 3rem;
+	min-height: 250px;
+	width:30%;
+	text-decoration: none;
+}
+
+.card3{
+background-image: url("image/image-background-card3.jpg");
+	background-size: cover;
+	background-position: bottom;
+	margin-top: 3rem;
+	min-height: 250px;
+	width:30%;
+	text-decoration: none;
+}
+
+.herobox1{
+	flex: 2;
+}
+
+.herobox2{
+	flex: 1;
+}
+
+.herobox2 img{
+	border-radius: 1rem;
+}
+
+h1{
+	font-size: 3.25rem;
+	font-family: 'Playfair Display', serif;
+	padding-bottom: 1rem;
+}
+
+p{
+	line-height: 1.75rem;
+	margin-bottom: 1rem;
+}
+
+h2{
+	font-size: 1.45rem;
+	font-family: 'Playfair Display', serif;
+	margin-top: 0.5rem;
+	
+}
+
+
+.cards p{
+	font-size: 0.95rem;
+	line-height: 1.3rem;
+	margin-bottom: 0.5rem;
+	margin-top: 10px;
+}
+
+i{
+	font-size:4rem;
+}
+
+
+.cards a{
+	text-decoration: none;
+	color: white;
+}
+
+.mybutton{
+	background-color: white;
+	color: deeppink;
+	font-size: 1.2rem;
+	font-weight: 600;
+	font-family: 'Playfair Display', serif;
+	text-decoration: none;
+	border-radius: .5rem;
+	padding: 8px 20px 13px;
+	display: inline-block;
+	margin-top: 1rem;
+	border: none;
+}
+
+.mybutton:hover{
+	box-shadow: 1px 5px 5px 1.5px rgba(0,0,65,0.70);
+	background-color: aqua;
+	transition-duration: 0.1s;
+}
+
+
+.testimonials{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 100px;
+
+}
+
+.tbox {
+	width: 47%;
+	padding: 20px;
+	border: 1px solid #FFFFFF;
+	box-sizing:border-box;
+	margin-top: 50px;
+}
+
+.tbox :last-child{
+	font-size: 0.75rem;
+}
+
+.inputwrapper{
+	margin-bottom: 30px;
+}
+/* This is for the input for type (i.e first name field),Input for email and textarea
+NB: This can be done individually but more efficient like this*/
+Input[type=text], Input[type=email], textarea{
+	padding: 12px 20px;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	font-weight: 350;
+}
+
+
+.newline{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.rb-margin{
+	margin-right: 20px;
+}
+
+form{
+	margin:40px 0px;
+}
